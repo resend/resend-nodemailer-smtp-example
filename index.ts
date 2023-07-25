@@ -1,13 +1,13 @@
-import nodemailer from "nodemailer";
+import nodemailer from 'nodemailer';
 
 async function main() {
   const transporter = nodemailer.createTransport({
-    host: "smtp.resend.com",
+    host: 'smtp.resend.com',
     secure: true,
     port: 465,
     auth: {
-      user: "resend",
-      pass: "re_123456789",
+      user: 'resend',
+      pass: 're_123456789',
     },
   });
 
@@ -18,7 +18,7 @@ async function main() {
     html: '<strong>It works!</strong>'
   });
 
-  console.log("Message sent: %s", info.messageId);
+  console.log('Message sent: %s', info.messageId);
 }
 
 main().catch(console.error);
