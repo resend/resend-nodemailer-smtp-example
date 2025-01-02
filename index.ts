@@ -15,7 +15,7 @@ async function main() {
     from: 'onboarding@resend.dev',
     to: 'delivered@resend.dev',
     subject: 'Hello World',
-    html: '<strong>It works!</strong>'
+    html: '<strong>It works!</strong>',
   });
 
   console.log('Message sent: %s', info.messageId);
