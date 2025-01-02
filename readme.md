@@ -13,17 +13,19 @@ To get the most out of this guide, you’ll need to:
 
 2. Install dependencies:
 
-  ```sh
+```sh
+pnpm install
+# or
 npm install
 # or
 yarn
-  ```
+```
 
 3. Execute the following command:
 
-  ```sh
-npm run dev
-  ```
+```sh
+pnpm dev
+```
 
 ## License
 
