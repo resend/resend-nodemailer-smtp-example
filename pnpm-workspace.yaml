@@ -1,4 +1,3 @@
-minimumReleaseAge: 1440
 allowBuilds:
   "@biomejs/biome": true
   bun: true
