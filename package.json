@@ -1,6 +1,7 @@
 {
   "name": "resend-nodemailer-smtp-example",
   "private": true,
+  "packageManager": "pnpm@11.3.0",
   "scripts": {
     "dev": "bun index.ts",
     "lint": "biome check .",
